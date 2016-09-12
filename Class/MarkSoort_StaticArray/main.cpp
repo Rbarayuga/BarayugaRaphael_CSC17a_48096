@@ -19,7 +19,7 @@ using namespace std;
 //Execution begins here!
 int main(int argc, char** argv) {
      //Declare Variables
-    
+    int x;
      //Input Data
     
     //Process -> Map the input data to the output
