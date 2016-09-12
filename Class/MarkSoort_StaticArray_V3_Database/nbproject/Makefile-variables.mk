@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=marksoort_staticarray
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/marksoort_staticarray
+CND_ARTIFACT_NAME_Debug=marksoort_staticarray_v3_database
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/marksoort_staticarray_v3_database
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=marksoortstaticarray.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/marksoortstaticarray.tar
+CND_PACKAGE_NAME_Debug=marksoortstaticarrayv3database.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/marksoortstaticarrayv3database.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=marksoort_staticarray
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/marksoort_staticarray
+CND_ARTIFACT_NAME_Release=marksoort_staticarray_v3_database
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/marksoort_staticarray_v3_database
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=marksoortstaticarray.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/marksoortstaticarray.tar
+CND_PACKAGE_NAME_Release=marksoortstaticarrayv3database.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/marksoortstaticarrayv3database.tar
 #
 # include compiler specific variables
 #

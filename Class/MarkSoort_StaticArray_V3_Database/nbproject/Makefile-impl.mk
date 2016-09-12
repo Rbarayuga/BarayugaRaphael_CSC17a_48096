@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=MarkSoort_StaticArray
+PROJECTNAME=MarkSoort_StaticArray_V3_Database
 
 # Active Configuration
 DEFAULTCONF=Debug

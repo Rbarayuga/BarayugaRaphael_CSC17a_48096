@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/marksoort_staticarray
-OUTPUT_BASENAME=marksoort_staticarray
-PACKAGE_TOP_DIR=marksoortstaticarray/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/marksoort_staticarray_v2_utilizeless
+OUTPUT_BASENAME=marksoort_staticarray_v2_utilizeless
+PACKAGE_TOP_DIR=marksoortstaticarrayv2utilizeless/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/marksoortstaticarray/bin"
+makeDirectory "${NBTMPDIR}/marksoortstaticarrayv2utilizeless/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/marksoortstaticarray.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/marksoortstaticarrayv2utilizeless.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/marksoortstaticarray.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/marksoortstaticarrayv2utilizeless.tar *
 checkReturnCode
 
 # Cleanup

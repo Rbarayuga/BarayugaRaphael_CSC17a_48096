@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Raphael M.B. Barayuga
  * Created on September 12, 2016, 1:01 PM
- * Purpose: Shortest sort
+ * Purpose: Shortest Sort
  */
 
 //system Libraries
@@ -25,19 +25,20 @@ void mrkSort(int [], int);
 
 int main(int argc, char** argv) {
     //Declare Variables
-    int perLine=10;
-    const int SIZE=100;
+    int perLine = 10;
+    const int SIZE = 100;
+    int utilize = SIZE * 0.5;
     int array[SIZE];
     srand(static_cast<unsigned int> (time(0)));
     //Input Data
-    fillAry(array,SIZE);
-    
+    fillAry(array, utilize);
+
     //Display initialization
-    prntAry(array,SIZE,perLine);
+    prntAry(array, utilize, perLine);
     //Process -> Map the input data to the output
-    mrkSort(array,SIZE);
+    mrkSort(array, utilize);
     //Display/Output solution here
-    prntAry(array,SIZE,perLine);
+    prntAry(array, utilize, perLine);
     //Exit Stage right!
     return 0;
 }
@@ -52,13 +53,12 @@ void mrkSort(int a[], int n) {
             }
         }
     }
-    
+
 }
-void prntAry(int a[], int n, int perLine)
-{
+
+void prntAry(int a[], int n, int perLine) {
     cout << endl;
-    for (int i = 0; i < n; i++) 
-    {
+    for (int i = 0; i < n; i++) {
         cout << a[i] << " "; //Random 2 digit numbers
         if (i % perLine == (perLine - 1))cout << endl;
     }
