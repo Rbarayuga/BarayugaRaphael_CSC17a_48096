@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=MarkSoort_StaticArray
+PROJECTNAME=2D_DynArray_and_1Dlike2D
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=marksoort_staticarray
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/marksoort_staticarray
+CND_ARTIFACT_NAME_Debug=2d_dynarray_and_1dlike2d
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/2d_dynarray_and_1dlike2d
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=marksoortstaticarray.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/marksoortstaticarray.tar
+CND_PACKAGE_NAME_Debug=2ddynarrayand1dlike2d.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/2ddynarrayand1dlike2d.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=marksoort_staticarray
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/marksoort_staticarray
+CND_ARTIFACT_NAME_Release=2d_dynarray_and_1dlike2d
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/2d_dynarray_and_1dlike2d
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=marksoortstaticarray.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/marksoortstaticarray.tar
+CND_PACKAGE_NAME_Release=2ddynarrayand1dlike2d.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/2ddynarrayand1dlike2d.tar
 #
 # include compiler specific variables
 #
